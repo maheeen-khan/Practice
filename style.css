@@ -25,6 +25,7 @@
 }
 
 input{
-    border-radius: 15px;
+    border-radius: 20px;
     width:70%;
+    border: none;
 }
