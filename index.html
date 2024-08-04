@@ -15,7 +15,7 @@
         <div class="row d-flex justify-content-center mt-5 p-3 login-row">
             <div class="col-lg-5 col-md-5 col-sm-12 text-center first-col pb-5">
 
-                <h2 class="main-login mt-5">Login to your Account</h2>
+                <h2 class="main-login mt-5"><span class="highlight">Login</span> to your Account</h2>
                 <p style="color: rgb(168, 168, 168);">Login using social networks</p>
 
                 <div class="all-networks   d-flex justify-content-center align-items-center mb-5">
@@ -39,9 +39,9 @@
 
                 <p id="or" class="mx-auto"> <span> OR </span></p>
 
-                <input type="email" name="email" id="email" placeholder="Email" class="mb-4 p-2" title="email"> <br>
+                <input type="email" name="email" id="email" placeholder="Email" class="mb-4 p-2" title="email" required> <br>
                 <input type="password" name="password" id="password" placeholder="Password" class="p-2"
-                    title="password">
+                pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="">
 
                 <br>
                 <button class="btn mt-4 sign-in">Sign in</button>
