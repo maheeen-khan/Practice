@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,54 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 text-center ">
+            <div class="col-lg-5 col-md-5 col-sm-12 text-center bg-warning">
 
                 <h2 class="main-login">Login to your Account</h2>
                 <p style="color: rgb(168, 168, 168);">Login using social networks</p>
 
-            <div class="all-networks   d-flex justify-content-center align-items-center mb-5">
-                <div class="networks">
-                    <a href="">
-                    <img src="./images/fb-removebg-preview.png" alt="Facebook" class="fb me-3">
-                    </a>
+                <div class="all-networks   d-flex justify-content-center align-items-center mb-5">
+                    <div class="networks">
+                        <a href="">
+                            <img src="./images/fb-removebg-preview.png" alt="Facebook" class="fb me-3">
+                        </a>
+                    </div>
+                    <div class="networks">
+                        <a href="">
+                            <img src="./images/google-removebg-preview.png" alt="Google" class="google">
+                        </a>
+                    </div>
+                    <div class="networks">
+                        <a href="">
+                            <img src="./images/linkedin-removebg-preview.png" alt="linkedin" class="linkedin">
+                        </a>
+                    </div>
                 </div>
-                <div class="networks">
-                    <a href="">
-                    <img src="./images/google-removebg-preview.png" alt="Google" class="google">
-                    </a>
-                </div>
-                <div class="networks">
-                    <a href="">
-                    <img src="./images/linkedin-removebg-preview.png" alt="linkedin" class="linkedin">
-                    </a>
-                </div>
+
+
+                <p id="or" class="mx-auto"> <span> OR </span></p>
+
+                <input type="email" name="email" id="email" placeholder="Email" class="mb-4 p-2" title="email"> <br>
+                <input type="password" name="password" id="password" placeholder="Password" class="p-2"
+                    title="password">
+
+                <br>
+                <button class="btn btn-success mt-4 sign-in">Sign in</button>
+
             </div>
-            
-
-            <p id="or" class="mx-auto"> <span> OR </span></p>
-
-            <input type="email" name="email" id="email" placeholder="Email" class="mb-4 p-2" title="email"> <br>
-            <input type="password" name="password" id="password" placeholder="Password" class="p-2" title="password">
-
-            <br>
-            <button class="btn btn-success mt-4 sign-in">Sign in</button>
-
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12">
-
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center bg-info d-flex flex-column justify-content-center align-items-center sec-col">
+                <h2 class="sec-col-heading">New here?</h2>
+                <p class="mt-4">Sign up and discover a great amount of new opportunities!</p>
+                <button class="btn mt-4 sign-up">Sign up</button>
             </div>
         </div>
     </div>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>

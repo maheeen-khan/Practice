@@ -1,5 +1,6 @@
 :root{
     --light-color : rgb(226, 255, 226);
+    --gradient : linear-gradient(270deg, #38B790, #06f7ff);
 }
 .fb{
     width: 30px;
@@ -37,8 +38,19 @@ input{
     width: 30%;
     border-radius: 20px;
 }
-
+.sign-up{
+    background-color: white;
+    width: 60%;
+    border-radius: 25px;
+}
 .main-login{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 39px;
+}
+.sec-col-heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.sec-col{
+    background: var(--gradient);
 }
