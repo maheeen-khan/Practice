@@ -53,4 +53,5 @@ input{
 }
 .sec-col{
     background: var(--gradient);
+    /* height: 90vh; */
 }
