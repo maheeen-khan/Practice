@@ -1,3 +1,6 @@
+:root{
+    --light-color : rgb(226, 255, 226);
+}
 .fb{
     width: 30px;
     height: 29px;
@@ -12,9 +15,9 @@
 }
 
 #or{
-    width: 100%; 
+    width: 90%; 
     text-align: center; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px solid #9a9a9a; 
     line-height: 0.1em;
     margin: 10px 0 20px; 
     font-size: 12px;
@@ -26,6 +29,16 @@
 
 input{
     border-radius: 20px;
-    width:70%;
+    width:90%;
     border: none;
+    background-color:var(--light-color);
+}
+.sign-in{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.main-login{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 39px;
 }
