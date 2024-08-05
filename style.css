@@ -39,6 +39,14 @@ input{
     width: 30%;
     border-radius: 20px;
     background: var(--gradient);
+    color: white;
+}
+.sign-in:hover{
+    background: white;
+    border: 3px double #00dbe3;
+    box-shadow: 2px 2px 10px #00dbe3,
+    -2px -2px 10px #00dbe3;
+    color:#00dbe3;
 }
 .sign-up{
     background-color: white;
@@ -64,6 +72,6 @@ input{
     color: #00dbe3;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.row:hover{
-    
+.first-col:hover{
+    filter: flip;
 }
