@@ -1,6 +1,7 @@
 :root{
     --light-color : #bafbfd;
     --gradient : linear-gradient(270deg, #38B790, #06f7ff);
+    --color : #00dbe3;
 }
 .fb{
     width: 30px;
@@ -43,10 +44,10 @@ input{
 }
 .sign-in:hover{
     background: white;
-    border: 3px double #00dbe3;
-    box-shadow: 2px 2px 10px #00dbe3,
-    -2px -2px 10px #00dbe3;
-    color:#00dbe3;
+    border: 3px double var(--color);
+    box-shadow: 2px 2px 10px var(--color),
+    -2px -2px 10px var(--color);
+    color:var(--color);
 }
 .sign-up{
     background-color: white;
@@ -69,7 +70,7 @@ input{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .highlight{
-    color: #00dbe3;
+    color: var(--color);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .first-col:hover{
