@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        #rocket {
+            width: 120px;
+            height: 27vh;
+            rotate: 37deg;
+            position: relative;
+
+            animation-name: launch;
+            animation-duration: 7s;
+
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        }
+
+        @keyframes launch {
+            0% {
+                filter: drop-shadow(2px 2px 25px rgb(234, 195, 54));
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                filter: drop-shadow(2px 2px 25px rgb(229, 10, 10));
+                /* left: 800px; */
+                left: 800px;
+                top: 0px;
+
+                rotate: 90deg;
+            }
+
+            50% {
+                filter: drop-shadow(2px 2px 25px rgb(30, 7, 177));
+                left: 800px;
+                top: 250px;
+
+                rotate: 200deg;
+
+            }
+
+            75% {
+                filter: drop-shadow(2px 2px 25px rgb(239, 24, 139));
+                left: 0px;
+                top: 250px;
+
+                rotate: 270deg;
+
+            }
+
+            100% {
+                filter: drop-shadow(2px 2px 25px rgb(6, 201, 114));
+                left: 0px;
+                top: 0px;
+
+                rotate: 300deg;
+
+            }
+        }
+        
+        @media screen and (max-width:767px) {
+            @keyframes launch {
+            0% {
+                filter: drop-shadow(2px 2px 25px rgb(234, 195, 54));
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                filter: drop-shadow(2px 2px 25px rgb(229, 10, 10));
+                /* left: 800px; */
+                left: 160px;
+                top: 0px;
+
+                rotate: 90deg;
+            }
+
+            50% {
+                filter: drop-shadow(2px 2px 25px rgb(30, 7, 177));
+                left: 160px;
+                top: 250px;
+
+                rotate: 200deg;
+
+            }
+
+            75% {
+                filter: drop-shadow(2px 2px 25px rgb(239, 24, 139));
+                left: 0px;
+                top: 250px;
+
+                rotate: 270deg;
+
+            }
+
+            100% {
+                filter: drop-shadow(2px 2px 25px rgb(6, 201, 114));
+                left: 0px;
+                top: 0px;
+
+                rotate: 300deg;
+
+            }
+        }
+        }
+
+        @media screen and (min-width:768px) and (max-width:1023px) {
+
+            @keyframes launch {
+            0% {
+                filter: drop-shadow(2px 2px 25px rgb(234, 195, 54));
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                filter: drop-shadow(2px 2px 25px rgb(229, 10, 10));
+                /* left: 800px; */
+                left: 340px;
+                top: 0px;
+
+                rotate: 90deg;
+            }
+
+            50% {
+                filter: drop-shadow(2px 2px 25px rgb(30, 7, 177));
+                left: 340px;
+                top: 250px;
+
+                rotate: 200deg;
+
+            }
+
+            75% {
+                filter: drop-shadow(2px 2px 25px rgb(239, 24, 139));
+                left: 0px;
+                top: 250px;
+
+                rotate: 270deg;
+
+            }
+
+            100% {
+                filter: drop-shadow(2px 2px 25px rgb(6, 201, 114));
+                left: 0px;
+                top: 0px;
+
+                rotate: 300deg;
+
+            }
+        }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="./rocket-removebg-preview.png" alt="rocket" id="rocket">
+
+        </div>
+    </div>
+</div>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
