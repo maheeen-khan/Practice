@@ -8,7 +8,7 @@ function checkEmail(){
 // Password validation
 
 
-    var passwordValid = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+    var passwordValid = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
     var password = document.getElementById('password').value;
 
     if(passwordValid.test(password) === true && emailValid.test(email) === true){
